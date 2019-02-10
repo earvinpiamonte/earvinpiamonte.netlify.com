@@ -25,5 +25,5 @@ a:focus,
 a:hover{
   color: #fff;
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: bold;
 }
