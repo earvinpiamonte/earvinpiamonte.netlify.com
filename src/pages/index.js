@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div>
       <div style={{ marginBottom: '5rem' }}>
         <h1>Noel Earvin Piamonte</h1>
-        <p>
+        <p className="p-container">
           I build websites for <a href="http://bentacos.com" target="_blank">Bentacos</a> and recently into mobile app development.
           </p>
       </div>
