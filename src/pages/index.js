@@ -12,7 +12,7 @@ const IndexPage = () => (
       <div style={{ marginBottom: '5rem' }}>
         <h1>Noel Earvin Piamonte</h1>
         <p className="p-container">
-          I build websites for <a href="http://bentacos.com" target="_blank">Bentacos</a> and recently into mobile app development.
+          I&apos;m currently living in Mandaluyong City and working as a Web Developer for <a href="http://bentacos.com" target="_blank">Bentacos</a>.
           </p>
       </div>
     </div>
