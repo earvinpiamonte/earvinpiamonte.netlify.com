@@ -13,27 +13,35 @@ class IndexPage extends React.Component{
     this.state = {
       easterEggKeyTriggerCount: 0
     };
+  }
 
-    document.addEventListener('keyup', (event) => {
-      if (event.which === 82) {
+  easterEggKeyTrigger(event) {
+    if (event.which === 82) {
 
-        this.setState((prevState) => (
-          {
-            easterEggKeyTriggerCount: prevState.easterEggKeyTriggerCount + 1
-          }
-        ));
-
-        if (this.state.easterEggKeyTriggerCount === 4) {
-          this.setState({
-            easterEggKeyTriggerCount: 0
-          });
-          alert('You found an easter egg!\nThe letter is R.');
+      this.setState((prevState) => (
+        {
+          easterEggKeyTriggerCount: prevState.easterEggKeyTriggerCount + 1
         }
+      ));
 
-        console.log(this.state.easterEggKeyTriggerCount);
+      if (this.state.easterEggKeyTriggerCount === 4) {
+        this.setState({
+          easterEggKeyTriggerCount: 0
+        });
+        alert('You found an easter egg!\nThe letter is R.');
       }
-    });
 
+      console.log(this.state.easterEggKeyTriggerCount);
+    }
+  }
+
+  componentDidMount() {
+    document.addEventListener('keyup', this.easterEggKeyTrigger);
+
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keyup', this.easterEggKeyTrigger);
   }
 
   render(){
