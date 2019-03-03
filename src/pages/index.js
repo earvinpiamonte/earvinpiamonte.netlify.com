@@ -13,6 +13,8 @@ class IndexPage extends React.Component{
     this.state = {
       easterEggKeyTriggerCount: 0
     };
+
+    this.easterEggKeyTrigger = this.easterEggKeyTrigger.bind(this);
   }
 
   easterEggKeyTrigger(event) {
@@ -24,7 +26,7 @@ class IndexPage extends React.Component{
         }
       ));
 
-      if (this.state.easterEggKeyTriggerCount === 4) {
+      if (this.state.easterEggKeyTriggerCount === 4) {document.addEventListener('keyup', this.easterEggKeyTrigger);
         this.setState({
           easterEggKeyTriggerCount: 0
         });
