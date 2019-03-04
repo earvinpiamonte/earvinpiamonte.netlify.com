@@ -58,7 +58,13 @@ class IndexPage extends React.Component{
           </p>
           <p style={{marginTop: '2rem'}}>
               <a href="https://www.freelancer.com/u/earvinpiamonte#/profile-portfolio" target="_blank" title="View previous projects">
-                <small>View previous projects &raquo;</small>
+                <small>Previous projects</small>
+              </a>
+              <span style={{marginRight: '1rem', marginLeft: '1rem'}}>
+                |
+              </span>
+              <a href="https://drive.google.com/file/d/1e4GfYipBr3DJPYOqe-CxFSns0UoxIiH6/view" target="_blank" title="View Résumé">
+                <small>View Résumé</small>
               </a>
           </p>
           </div>
