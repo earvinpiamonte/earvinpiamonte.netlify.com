@@ -57,7 +57,7 @@ class IndexPage extends React.Component{
               Website Developer for <a href="http://bentacos.com" target="_blank">Bentacos</a>, previously an independent at <a href="https://www.freelancer.com/u/earvinpiamonte" target="_blank">Freelancer.com</a>.
           </p>
           <p style={{marginTop: '2rem'}}>
-              <a href="https://www.freelancer.com/u/earvinpiamonte#/profile-portfolio" target="_blank" title="View previous projects">
+              <a href="https://www.freelancer.com/u/earvinpiamonte#profile-portfolio" target="_blank" title="View previous projects">
                 <small>Previous projects</small>
               </a>
               <span style={{marginRight: '1rem', marginLeft: '1rem'}}>
