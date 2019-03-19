@@ -57,7 +57,7 @@ class IndexPage extends React.Component{
               I develop websites for <a href="http://bentacos.com" target="_blank">Bentacos</a>, previously an independent web developer at <a href="https://www.freelancer.com/u/earvinpiamonte" target="_blank">Freelancer.com</a>.
           </p>
           <p style={{marginTop: '2rem'}}>
-              <a href="https://drive.google.com/file/d/1e4GfYipBr3DJPYOqe-CxFSns0UoxIiH6/view" target="_blank" title="View Résumé">
+              <a href="https://drive.google.com/file/d/1co2TEPaCSbSyCceYOi84pGphIKV4_seB/view" target="_blank" title="View Résumé">
                 <small>View Résumé &raquo;</small>
               </a>
           </p>
