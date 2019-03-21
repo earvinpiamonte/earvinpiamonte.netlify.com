@@ -54,13 +54,16 @@ class IndexPage extends React.Component{
           <div style={{ marginBottom: '5rem' }}>
             <h1>Noel Earvin Piamonte</h1>
             <p className="p-container">
-              I develop websites for <a href="http://bentacos.com" target="_blank">Bentacos</a>, previously an independent web developer at <a href="https://www.freelancer.com/u/earvinpiamonte" target="_blank">Freelancer.com</a>.
-          </p>
-          <p style={{marginTop: '2rem'}}>
-              <a href="https://drive.google.com/file/d/1co2TEPaCSbSyCceYOi84pGphIKV4_seB/view" target="_blank" title="View Résumé">
-                <small>View Résumé &raquo;</small>
-              </a>
-          </p>
+              I develop websites for <a href="https://bentacos.com" target="_blank">Bentacos</a>, previously an independent website developer at <a href="https://www.freelancer.com/u/earvinpiamonte" target="_blank">Freelancer.com</a>.
+            </p>
+            <p style={{marginTop: '2rem'}}>
+                <a href="https://drive.google.com/file/d/1co2TEPaCSbSyCceYOi84pGphIKV4_seB/view" target="_blank" class="site-btn" title="View Résumé">
+                  <small>View Résumé</small>
+                </a>
+            </p>
+            <p style={{ color: '#000' }}>
+              R.V.C.
+            </p>
           </div>
         </div>
       </div>
