@@ -1,7 +1,14 @@
 import React from "react"
+import ReactGA from 'react-ga';
+
 import SEO from "../components/seo"
 import "../components/layout.css"
 class IndexPage extends React.Component {
+
+  initializeReactGA() {
+    ReactGA.initialize('UA-50697157-1');
+    ReactGA.pageview('/home');
+  }
 
   render() {
     return (
@@ -20,6 +27,7 @@ class IndexPage extends React.Component {
             </p>
           </div>
         </div>
+        {this.initializeReactGA()}
       </div>
     );
   }
